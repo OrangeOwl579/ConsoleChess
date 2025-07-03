@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.31)
+project(ConsoleChess)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(ConsoleChess main.cpp
+        board.cpp
+        board.h
+)
