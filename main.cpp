@@ -2,7 +2,6 @@
 #include "board.h"
 
 int main() {
-
     std::string input;
 
     // Create a Board object
@@ -15,6 +14,6 @@ int main() {
     std::cout << "Enter a move: " << std::endl;
     std::cin >> input;
 
-    board.checkMove(input);
+    board.checkMove(input, input);
     return 0;
 }
